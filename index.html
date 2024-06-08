@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="content">
+        <div class="container">
+            <h2>hi boss keira</h2>
+            <form id="quizForm">
+                <!-- Designed Start Quiz Button -->
+                <button type="submit" class="start-button">Start Quiz</button>
+            </form>
+            <div id="quizContainer" style="display:none;">
+                <div id="questions"></div>
+                <!-- Yes and No Buttons -->
+                <div class="button-container">
+                    <button id="yesButton">Yes</button>
+                    <button id="noButton">No</button>
+                </div>
+                <button id="prevButton" style="display:none;">Previous</button>
+                <button id="nextButton">Next</button>
+            </div>
+            <p id="scoreDisplay"></p>
+        </div>
+    </div>
+    <script src="function.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</body>
+</html>
